@@ -11,7 +11,7 @@ $dischi = [
   ],
 
   [
-    'poster' => 'https://i.pinimg.com/originals/c0/2e/63/c02e635b1f8e0953a763c4e4384c7880.jpg',
+    'poster' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh-iPpCG0VJKtjjY81ftH8V2vZ5-pUw2TVHg&usqp=CAU',
     'name' => 'Welcome to jamrock',
     'artist' => 'Damian Marley',
     'year' => '2005',
@@ -84,7 +84,7 @@ $dischi = [
 
 ];
 
-header('Content-Type: application/json');
+// header('Content-Type: application/json');
 // $json = json_encode($album);
 // echo $json;
 
