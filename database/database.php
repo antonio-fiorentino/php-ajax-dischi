@@ -85,7 +85,7 @@ $dischi = [
 ];
 
 // header('Content-Type: application/json');
-// $json = json_encode($album);
+// $json = json_encode($dischi);
 // echo $json;
 
 

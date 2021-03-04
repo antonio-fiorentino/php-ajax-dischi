@@ -29,18 +29,23 @@ require_once __DIR__ . '/database/database.php';
     <div class="container">
       <?php foreach ($dischi as $disco) {?>
         <div class="album">
+
           <div class="poster">
             <img src="<?php echo $disco['poster']?>">
           </div>
+          
           <div class="name-song">
             <h2><?php echo $disco['name']?></h2>
           </div>
+
           <div class="author">
             <h3><?php echo $disco['artist']?></h3>
           </div>
+
           <div class="year">
             <h4><?php echo $disco['year']?></h4>
           </div>
+
         </div>
 
       <?php } ?>
